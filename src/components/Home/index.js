@@ -1,34 +1,38 @@
 import React from 'react'
-import Header from '../Header'
 import { useState } from 'react';
+// importing styles from CSS-in JS
 import {HomePrimryContainer,BannerContainer,
     WelcomeContainer,
-WelcomeNote,
-ButtonAndPopContainer,
-QuickViewButton,
-AboutContainer,
-ContentHeadingContainer,
-HalfDesignLine,
-ContentHeading,
-TextContainer,
-BlastImage,
-RushAndAboutNoteContainer,
-AboutNote,
-RushNote,
-OurProductsMainContainer,
-ProductsContainer,
-ProductCard,
-ProductImage,
-NameAndViewContainer,
-ProductName,
-LargeDesignLine,
-FooterSection,
-YellowLine
+    WelcomeNote,
+    ButtonAndPopContainer,
+    QuickViewButton,
+    AboutContainer,
+    ContentHeadingContainer,
+    HalfDesignLine,
+    ContentHeading,
+    TextContainer,
+    BlastImage,
+    RushAndAboutNoteContainer,
+    AboutNote,
+    RushNote,
+    OurProductsMainContainer,
+    ProductsContainer,
+    ProductCard,
+    ProductImage,
+    NameAndViewContainer,
+    ProductName,
+    LargeDesignLine,
+    FooterSection,
+    YellowLine
 } from './styledComponents'
+
+//  Importing Header, Footer and Popup Components.
+import Header from '../Header'
 import Footer from '../Footer'
-import PopUp from '../PopUp';
+import PopUp from '../PopUp';   // Popup Component asigned at button elements
 
 
+// To switch a popup using state, We can use either a class component with state or the latest version hooks like 'useState'
 const Home = () => {
     const [showPopup, setShowPopup] = useState(false)
 
@@ -101,7 +105,5 @@ const Home = () => {
     </>
   )
 }
-// {showPopup && }
-//<ProductViewButton type='button' onClick={openPopup}>QUICK VIEW</ProductViewButton>
 
 export default Home

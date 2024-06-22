@@ -9,6 +9,7 @@ IconItem,
 WebLink
 } from './styledComponent'
 
+// The Media icons are dynamically linked using the "Link" from the 'react-router-dom' library
 
 const Footer = () => {
   return (

@@ -77,7 +77,7 @@ export const AboutNote = styles.p`
 text-align: center;
 max-width: 880px; 
 `
-// width: 50%
+
 export const RushNote = styles.h4`
 text-align: center;
 `

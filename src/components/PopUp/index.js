@@ -1,4 +1,5 @@
 import React from 'react'
+// Importing Thirparty icons from 'react-icons' library
 import { FaStar } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
 import { 
@@ -25,6 +26,7 @@ ChooseNowButton,
 ProductViewButton
 } from './styledComponents'
 
+// importing and using Popup from 'reactjs-popup' library
 import Popup from 'reactjs-popup'
 import styles from 'styled-components';
 
